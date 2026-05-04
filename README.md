@@ -32,3 +32,39 @@ An interactive, high-fidelity React application designed to guide voters through
 
 ---
 *Created as an educational, non-partisan guide to the democratic process.*
+
+
+## 📁 Folder Structure
+
+```
+ElectionExplorer1/
+├── .gitignore[cite: 1]
+├── README.md[cite: 1]
+├── eslint.config.js[cite: 1]
+├── index.html[cite: 1]
+├── package-lock.json[cite: 1]
+├── package.json[cite: 1]
+├── vite.config.js[cite: 1]
+├── public/[cite: 1]
+│   ├── favicon.svg[cite: 1]
+│   └── icons.svg[cite: 1]
+└── src/[cite: 1]
+    ├── App.css[cite: 1]
+    ├── App.jsx[cite: 1]
+    ├── index.css[cite: 1]
+    ├── main.jsx[cite: 1]
+    ├── assets/[cite: 1]
+    │   ├── hero.png[cite: 1]
+    │   ├── react.svg[cite: 1]
+    │   └── vite.svg[cite: 1]
+    ├── components/[cite: 1]
+    │   ├── Card.jsx[cite: 1]
+    │   ├── Hero.jsx[cite: 1]
+    │   ├── Icon.jsx[cite: 1]
+    │   ├── Navbar.jsx[cite: 1]
+    │   └── StepSection.jsx[cite: 1]
+    ├── data/[cite: 1]
+    │   └── steps.js[cite: 1]
+    └── hooks/[cite: 1]
+        └── useInView.js[cite: 1]
+```
